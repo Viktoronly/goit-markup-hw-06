@@ -873,7 +873,7 @@ a {
     border-radius: 2px;
 }
 
-.check-box-input:checked+.icon-checkbox {
+.check-box-input:checked + .icon-checkbox {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
