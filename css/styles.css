@@ -810,7 +810,11 @@ a {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-labal-input:focus .icon-person {
+.modal-form-labal-input:focus {
+    border-color: #4D5AE5;
+}
+
+.modal-form-labal-input:focus+.icon-person {
     border-color: #4D5AE5;
 }
 
