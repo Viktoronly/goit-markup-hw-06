@@ -810,7 +810,7 @@ a {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-labal-input:focus {
+.modal-form-labal-input:focus .icon-person {
     border-color: #4D5AE5;
 }
 
@@ -873,7 +873,7 @@ a {
     border-radius: 2px;
 }
 
-.check-box-input:checked + .icon-checkbox {
+.check-box-input:checked+.check-box-labal-span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
