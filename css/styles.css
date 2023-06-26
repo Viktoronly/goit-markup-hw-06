@@ -814,7 +814,7 @@ a {
     border-color: #4D5AE5;
 }
 
-.modal-form-labal-input:focus+.icon-person {
+.modal-form-labal-input:focus + .icon-person {
     border-color: #4D5AE5;
 }
 
