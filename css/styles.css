@@ -874,7 +874,7 @@ a {
     border-radius: 2px;
 }
 
-.check-box-input:checked + .modal-form-labal > .check-box-labal-span {
+input:checked+label>span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
