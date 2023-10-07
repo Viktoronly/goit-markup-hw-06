@@ -876,6 +876,7 @@ input:checked+label>span {
 
 .check-box-labal-link {
     color: #4d5ae5;
+    text-decoration: underline;
 }
 
 .check-box-labal-button {
