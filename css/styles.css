@@ -757,11 +757,11 @@ ul {
 footer {
 	background-color: var(--grey);
 	display: flex;
-	padding: 96px 0;
 }
 
 .footer {
-	display: flex;
+	display: flex;	
+	padding: 96px 0;
 }
 
 .backdrop {
