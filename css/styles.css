@@ -756,16 +756,13 @@ ul {
 
 footer {
 	background-color: var(--grey);
-	padding: 96px 0;
 	display: flex;
+	padding: 96px 0;
 }
 
-@media only screen and (max-width: 1199px) {
-   
-	.footer {
-		padding: 96px 0;
-	}
-  }
+.footer {
+	display: flex;
+}
 
 .backdrop {
 	position: fixed;

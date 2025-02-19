@@ -7,9 +7,14 @@
 		display: flex
 	}
 
+	.footer {
+		padding-bottom: 100px 0;
+	}
+
 	.subscribe_form {
 		margin-left: 80px;
 	}
+	 
 }
 
 @media screen and (min-width:768px) {
