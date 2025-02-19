@@ -348,6 +348,7 @@ ul {
 
 .team_persons {
 	display: flex;
+	margin-top: 79px;
 }
 
 .team_list {
