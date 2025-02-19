@@ -136,8 +136,9 @@
 		box-sizing: border-box;
 	}
 
-	.portfolio_row_item:nth-last-child(-n+2) {
-			margin-bottom: 0;
+	}
+	.portfolio_row_item> :nth-child(-n+2) {
+		margin-top: 72px;
 	}
 
 	.footer_left {
