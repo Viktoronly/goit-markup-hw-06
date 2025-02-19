@@ -111,8 +111,11 @@
 
 	.team_persons> :first-child {
 		margin-top: 72px;
-	}
 
+	.team_persons:not(:last-child) {
+		margin-bottom: 72px;
+	}
+	
 	.team_container {
 		max-width: 426px;
 		padding-right: 28px;
