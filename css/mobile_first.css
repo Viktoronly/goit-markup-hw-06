@@ -105,8 +105,12 @@
 		margin-right: auto;
 	}
 
-	.team_persons:not(:last-child) {
-		margin-right: 28px;
+	.team_persons {
+		margin-top: 0;
+	}
+
+	.team_persons> :first-child {
+		margin-top: 72px;
 	}
 
 	.team_container {
