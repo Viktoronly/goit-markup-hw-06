@@ -5,6 +5,9 @@
 		padding-right: 15px;
 		padding-left: 15px;
 	}
+	.service {
+		padding: 112px 0;
+	}
 
 	.service_header {
 		margin-bottom: 36px;
@@ -118,7 +121,14 @@
 	.portfolio_ul {
 			display: flex;
 			justify-content: center;
-			flex-basis: calc((100% - 72px) / 2);
+			flex-basis: calc((100% - 24px) / 2);
+			gap: 24px;
+			row-gap: 72px;
+			max-width: 736px;
+	}
+
+	.row_item {
+		min-width: 354px;
 	}
 
 	.portfolio_row_item {

@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767.9px) {
 	.mobile_menu {
 		position: fixed;
 		width: 100%;
@@ -32,6 +32,10 @@
 		flex-direction: column;
 		position: relative;
 		height: 100%;
+		padding-right: 24px;
+		max-width: 426px;
+		padding-right: 24px;
+		padding-left: 16px;
 	}
 
 	.mobile_menu_close_btn {
@@ -56,7 +60,8 @@
 
 
 	.mobile_menu_list {
-		padding-top: 80px;
+		padding-top: 72px;
+		padding-bottom: 168px;
 	}
 
 	.mobile_menu_list .mobile_menu_list_item:not(:last-child) {
@@ -143,5 +148,14 @@
 	.icon_mobile_social {
 		width: 24px;
 		height: 24px
+	}
+
+	.checkbox_desc_text {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.checkbox_desc {
+		max-width: 256px;
 	}
 }
